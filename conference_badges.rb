@@ -19,3 +19,12 @@ def assign_rooms(speakers)
   end
   new_array
 end
+
+def printer
+  batch_badge_creator
+  rooms = assign_rooms
+  rooms.each do |room|
+    puts room
+  end
+  
+end
