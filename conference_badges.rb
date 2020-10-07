@@ -9,6 +9,6 @@ def batch_badge_creator(names_batch)
     "Hello, my name is #{name}."
 end
 
-def assign_rooms
-  
+def assign_rooms(speakers)
+  speakers
 end
