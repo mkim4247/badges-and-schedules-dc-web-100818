@@ -9,7 +9,7 @@ def batch_badge_creator(names_batch)
   names_batch.each do |name|
     new_array << "Hello, my name is #{name}."
   end
-  
+  new_array
 end
 
 def assign_rooms(speakers)
